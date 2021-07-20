@@ -38,7 +38,7 @@ public class Caixa {
         System.out.println("**** Itens na caixa ****");
         for (Produto produto : caixaList) {
             valorTotal += produto.valor;
-            System.out.println((caixaList.indexOf(produto) + 1) + "� " + produto.nome + " - R$ " + fmt.format(produto.valor));
+            System.out.println((caixaList.indexOf(produto) + 1) + "º " + produto.nome + " - R$ " + fmt.format(produto.valor));
         }
         System.out.println("\nValor total da caixa: " + fmt.format(valorTotal));
     }
