@@ -29,13 +29,17 @@ public class Main {
         Platina platina = new Platina(10);
 
         ArrayList<Produto> produtoList = new ArrayList<Produto>();
-        produtoList.add(caneta);
+        produtoList.add(quadrinho);
+        produtoList.add(chaveiro);
+        produtoList.add(busto);
         produtoList.add(adesivo);
         produtoList.add(poster);
-        //produtoList.add(miniatura);
+        produtoList.add(camiseta);
+        produtoList.add(caneta);
+        produtoList.add(miniatura);
 
         Caixa caixa1 = new Caixa();
-        caixa1.addCaixa(produtoList, bronze.quantidadeItensPossiveis);
+        caixa1.addCaixa(produtoList, platina.quantidadeItensPossiveis);
         caixa1.imprimir();
     }
 

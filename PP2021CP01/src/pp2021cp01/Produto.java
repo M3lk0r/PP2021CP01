@@ -14,9 +14,6 @@ public class Produto {
     public String nome;
     public double valor;
 
-    public Produto() {
-    }
-
     public Produto(String nome, double valor) {
         this.nome = nome;
         this.valor = valor;
